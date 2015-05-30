@@ -1,0 +1,82 @@
+/*
+Theme Name: Robodogs Theme
+Theme URI:
+Author: The Robodogs Team of 2015
+Author URI:
+Description:
+Version: 1.0
+License:
+License URI:
+Tags:
+Text Domain:
+*/
+
+/* accepted colours 
+    White:       #FBFBFB
+    Black:       #161616
+    Navy Blue:   #001D55
+    Light Blue:  #4775D1
+    Dark Green:  #1F5C1F
+    Light Green: #628D62
+    Grey:        #86807A
+*/
+
+/* 
+sugessted possible font
+PetMe64_mod 
+*/
+h1{
+	display:inline;
+	font-family: Verdana, Calibri;
+}
+
+.header{
+	font-size:3em;
+}
+
+nav {
+width:100%;    
+}
+nav ul{
+    list-style-type:none;
+    text-indent:none;
+    overflow: hidden;
+}
+nav ul li{
+    width: 13%;
+    height: 15%;
+    float: left;
+	margin-left: 20px;
+}
+nav ul li img{
+	position:relative;
+    float:top;
+    width: 100%;
+    height:auto;
+	z-index:0;
+}
+nav ul li p{
+	position:relative;
+	display:block;
+	height:10%;
+	margin-top:0px;
+	top:-120%;
+    padding-top:3px;
+    float:bottom;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #FBFBFB;
+}
+nav ul li div{
+	position:relative;
+	display:block;
+	top:-120%;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background-color: rgba(50,50,50,0);
+	transition: all 0.5s;
+}
+nav ul li div:hover{
+	background-color: rgba(50,50,50,.3);
