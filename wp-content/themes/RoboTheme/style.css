@@ -25,36 +25,49 @@ Text Domain:
 sugessted possible font
 PetMe64_mod 
 */
+body{
+	margin:none;
+}
 h1{
 	display:inline;
 	font-family: Verdana, Calibri;
 }
+.header_container{
+	width:100%;
+	height:auto;
+	background-color: #FBFBFB;
+	padding-top:.5%;
+	padding-bottom:.5%;
+	-webkit-box-shadow: 0px 20px 8px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    0px 20px 8px #ccc;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         0px 20px 8px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
 
 .header{
-	font-size:3em;
+	font-size:2em;
+	width:13%;
 }
 
 nav {
-margin-top:.2%;
-width:100%;
-background-color: #001D55; /* fallback */
-background-color:rgba(0,29,85,.8);
-padding-top:.5%;
-padding-bottom:.5%;
-background-transparent:	    
+position:absolute;
+top:1%;
+left:13%;
+width:87%;
+z-index:1;  
 }
 nav ul{
 	width:80%;
-	margin-left:10%;
+	margin-left:10%;	
     list-style-type:none;
     text-indent:none;
     overflow: hidden;
 }
 nav ul li{
 	float: left;
-	width: 8%;
+	width: 12%;
 	height: auto;
-	margin-left: 7%;
+	margin-left: 4%;
 	overflow:auto;
 }
 nav ul li img{
