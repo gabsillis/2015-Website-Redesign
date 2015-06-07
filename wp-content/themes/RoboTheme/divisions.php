@@ -14,7 +14,7 @@
 			<nav>
 				<ul>
 					<li><a href="index.php"><img src="home-icon.svg" onerror="this.onerror=null; this.src='image.png'"><div></div></a></li>
-					<li><a href="divisions.php"><img src="divisions-icon.svg"/><div></div></a></li>
+					<li><a href="divisions.php"><img src="divisions-icon.svg"/></a></li>
 					<li><img src="http://www.devsourcecodex.com/images/advertisingexamples/200x200.png"/><div></div></li>
 					<li><img src="http://www.devsourcecodex.com/images/advertisingexamples/200x200.png"/><div></div></li>
 					<li><img src="http://www.devsourcecodex.com/images/advertisingexamples/200x200.png"/><div></div></li>
