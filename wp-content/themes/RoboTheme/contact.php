@@ -1,20 +1,6 @@
-<<<<<<< HEAD
-<?php
-	/*
-	Template Name: divisions
-	*/	
-?>
-<?php get_header(); ?>
-        <?php
-            
-        ?>
-	<?php get_footer(); ?>	
-    </body>
-</html>
-=======
-<html>
-
-<head>
+ <html>
+ 
+ <head>
         <?php
 		
             
@@ -41,4 +27,3 @@
 	</div>
 
  </html>
->>>>>>> 21a17b996d8292c131566b86f306d582487ba4c0
