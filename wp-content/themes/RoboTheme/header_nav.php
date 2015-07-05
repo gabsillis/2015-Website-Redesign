@@ -1,13 +1,3 @@
-<html>
-    <?php
-        /*
-            Template Name: My Custom Page
-        */
-        /*
-        IDEAS:
-        Array to loop through and generate navigation
-        */
-    ?>
     <head>
         <?php
 		
@@ -33,12 +23,3 @@
 			</nav>
 			<div class="under_accent" style="background-color: #a9a29c;"></div>
 	</div>
-	<div class = "slideshow_container">
-		<img src="old_logo.gif" class="slideshow_visible"/>
-		<div id="caption"></div>
-	</div>
-        <?php
-            
-        ?>
-    </body>
-</html>
