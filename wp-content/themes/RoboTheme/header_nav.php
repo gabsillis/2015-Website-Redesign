@@ -1,4 +1,6 @@
-    <head>
+<html>
+	
+<head>
         <?php
 		
             
@@ -23,3 +25,5 @@
 			</nav>
 			<div class="under_accent" style="background-color: #a9a29c;"></div>
 	</div>
+	
+</html>
