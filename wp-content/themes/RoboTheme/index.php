@@ -1,19 +1,31 @@
 <?php get_header(); ?>
+	<div id = "holder">
 	<div class = "slideshow_container">
-		<ul id ="slideshow">
-			<li><img src="/wp-content/themes/RoboTheme/old_logo.gif" class="slideshow_invisible"/>
-			<li><img src="/wp-content/themes/RoboTheme/test.png" class="slideshow_invisible"/>
+		<ul class="rslides">
+			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/1.png"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/slideshow_images/1.png';"/></li>
+			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/2.png"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/slideshow_images/2.jpg';"/></li>
+			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/3.png"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/slideshow_images/3.jpg';"/></li>
 		</ul>
 		<div id="caption"></div>
 	</div>
 	<div class = "rss_feed">
+	</div>
 	</div>
         <?php
             
         ?>
 	<?php get_footer(); ?>
 	</div>
-	<script src="/wp-content/themes/RoboTheme/slideshow.js">start();</script>
+	<!-- <script src="/wp-content/themes/RoboTheme/slideshow.js">start();</script> -->
+	<script src="/wp-content/themes/RoboTheme/responsiveslides.min.js"></script>
+	<script src="/wordpress/wp-content/themes/RoboTheme/responsiveslides.min.js"></script>
+	<script>
+	$(function() {
+	   $(".rslides").responsiveSlides({
+		pause:true,
+		});
+	});
+</script>
 	<?php
 		function rsearch($folder, $pattern) {
 			$dir = new RecursiveDirectoryIterator($folder);
