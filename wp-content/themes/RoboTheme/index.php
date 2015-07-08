@@ -2,9 +2,9 @@
 	<div id = "holder">
 	<div class = "slideshow_container">
 		<ul class="rslides">
-			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/1.png"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/slideshow_images/1.png';"/></li>
-			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/2.png"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/slideshow_images/2.jpg';"/></li>
-			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/3.png"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/slideshow_images/3.jpg';"/></li>
+			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/1.png"/></li>
+			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/2.jpg"/></li>
+			<li><img src="/wp-content/themes/RoboTheme/slideshow_images/3.jpg"/></li>
 		</ul>
 		<div id="caption"></div>
 	</div>
@@ -18,7 +18,6 @@
 	</div>
 	<!-- <script src="/wp-content/themes/RoboTheme/slideshow.js">start();</script> -->
 	<script src="/wp-content/themes/RoboTheme/responsiveslides.min.js"></script>
-	<script src="/wordpress/wp-content/themes/RoboTheme/responsiveslides.min.js"></script>
 	<script>
 	$(function() {
 	   $(".rslides").responsiveSlides({
@@ -42,7 +41,7 @@
 				// generate list items for slideshow ul
 			}
 		}
-		rsearch('/wp-content/uploads', '/slideshow/');
+		//rsearch('/wp-content/uploads', '/slideshow/'); FATAL ERROR, FILE NOT FOUND
 	?>
     </body>
 </html>

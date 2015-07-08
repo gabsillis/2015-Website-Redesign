@@ -41,11 +41,11 @@ PetMe64_mod
 	src: url(commodore.ttf);
 
 	font-family:commodore_64_absolute;
-	src: url(/wordpress/wp-content/themes/RoboTheme/commodore.ttf);
+	src: url(/wp-content/themes/RoboTheme/commodore.ttf);
 }
 
 body{
-	margin:none;
+	margin: 0px;
 }
 h1{
 	display:inline;
