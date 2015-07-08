@@ -10,6 +10,10 @@
 	</div>
 	<div class = "rss_feed">
 	</div>
+	<div class = "sponsors_column">
+	<div id="sponsor_title_wrapper"><h1>Our Esteemed Sponsors</h1></div>
+	<img src="/wp-content/themes/RoboTheme/google.gif"  onError="this.onerror=null;this.src='/wordpress/wp-content/themes/RoboTheme/google.gif';"/>
+	</div>
 	</div>
         <?php
             
