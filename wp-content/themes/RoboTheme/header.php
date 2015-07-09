@@ -35,11 +35,11 @@
 				<nav>
 					<ul>
 						<li><a href="/"><img src="/wp-content/themes/RoboTheme/home-icon.svg"><?php if(preg_match("/[a-zA-Z]/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
-						<li><a href="/divisions"><img src="/wp-content/themes/RoboTheme/divisions-icon.svg"/><?php if(!preg_match("/divisions/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
-						<li><img src="/wp-content/themes/RoboTheme/robot-design-icon.svg"/><?php if(!preg_match("/robot_design/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></li>
-						<li><img src="/wp-content/themes/RoboTheme/members-icon.svg"/><?php if(!preg_match("/members/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></li>
-						<li><img src="/wp-content/themes/RoboTheme/about-us-icon.svg"/><?php if(!preg_match("/about_us/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></li>
-						<li><img src="/wp-content/themes/RoboTheme/sponsors-icon.svg"/><?php if(!preg_match("/sponsors/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></li>
+						<li><a href="/index.php/divisions"><img src="/wp-content/themes/RoboTheme/divisions-icon.svg"/><?php if(!preg_match("/divisions/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
+						<li><a href="/index.php/robot_designs"><img src="/wp-content/themes/RoboTheme/robot-design-icon.svg"/><?php if(!preg_match("/robot_design/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
+						<li><a href="/index.php/members"><img src="/wp-content/themes/RoboTheme/members-icon.svg"/><?php if(!preg_match("/members/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
+						<li><a href="/index.php/about_us"><img src="/wp-content/themes/RoboTheme/about-us-icon.svg"/><?php if(!preg_match("/about_us/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
+						<li><a href="/index.php/sponsors"><img src="/wp-content/themes/RoboTheme/sponsors-icon.svg"/><?php if(!preg_match("/sponsors/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
 					</ul>
 				</nav>
 				<div class="under_accent" style= "background-color:<?php echo $color; ?>;"></div>
