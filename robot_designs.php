@@ -16,7 +16,11 @@
 .alignright {
 	float: right;
 }
+#content {
+	background-color: #FBFBFB;
+}
 </style>
+<div id="content">
 <script>
 $(document).ready(function () {
     var options = {
@@ -92,4 +96,5 @@ $(window).bind("orientationchange", ScaleSlider);
         <!-- Arrow Right -->
         <span u="arrowright" class="jssora01r">
         </span>
+</div>
 </div>
