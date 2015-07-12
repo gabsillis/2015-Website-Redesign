@@ -30,7 +30,7 @@
     </head>
     <body>
 	<div id = "wrapper">
-		<div id = "header" class = "header_container">
+		<div id = "header" class = "header_container" style="">
 			<div class="header"><h1 style="color:#001D55;">Team435</h1><h1 class="commodoreFont" style="color:#1F5C1F;"> Robodogs</h1></div>
 				<nav>
 					<ul>
@@ -42,5 +42,5 @@
 						<li><a href="/index.php/sponsors"><img src="/wp-content/themes/RoboTheme/sponsors-icon.svg"/><?php if(!preg_match("/sponsors/",$_SERVER['REQUEST_URI'])){echo "<div></div>";}?></a></li>
 					</ul>
 				</nav>
-				<div class="under_accent" style= "background-color:<?php echo $color; ?>;"></div>
+				<div class="under_accent" style= "background-color:<?php echo $color; ?>; margin-top: 17px"></div>
 		</div>
