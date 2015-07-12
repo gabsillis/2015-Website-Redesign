@@ -5,6 +5,9 @@
 	width: 1300px;
 	height: 500px;
 }
+#Slides > div {
+	padding: 10px;
+}
 #slider1_container {
 	position: relative;
 }
@@ -15,12 +18,25 @@
 }
 .alignright {
 	float: right;
+	padding-right: 18px;
 }
 .alignleft {
 	float: left;
+	margin: 5px;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption-text {
+	margin-top: 0px;
+    font-style: italic;
+    font-size: 0.9em
 }
 #content {
 	background-color: #FBFBFB;
+	height: 100%;
 }
 </style>
 <div id="content">
@@ -60,7 +76,7 @@ $(window).bind("orientationchange", ScaleSlider);
 		<?php for($i = 0; $i < sizeof($posts_array); $i++) : ?>
 		<div>
 			<h1 class="year-title"><?php print(apply_filters( 'the_title', $posts_array[$i]->post_title )); ?></h1>
-			<?php print(apply_filters( 'the_content', $posts_array[$i]->post_content)); ?>
+			<div><?php print(apply_filters( 'the_content', $posts_array[$i]->post_content)); ?></div>
 		</div>
 		<?php endfor; ?>
     </div>
