@@ -16,6 +16,9 @@
 .alignright {
 	float: right;
 }
+.alignleft {
+	float: left;
+}
 #content {
 	background-color: #FBFBFB;
 }
