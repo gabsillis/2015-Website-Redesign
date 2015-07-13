@@ -8,8 +8,12 @@
 				$color = "#80b3ff";
 			}
 			elseif (preg_match("/robot_designs/", $url)){
-				$color = "#8aa193";
-			}
+				$color = "#8aa193"; ?>
+				<script src="/jssor.js"></script>
+				<script src="/jssor.slider.js"></script>
+				<script>
+				</script>
+			<?php }
 			elseif (preg_match("/about_us/", $url)){
 				$color = "#ffbc7d";
 			}
